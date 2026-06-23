@@ -3,75 +3,336 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Shoaib Shaikh | Backend Developer</title>
+
 <script src="https://cdn.tailwindcss.com"></script>
+
 <link rel="stylesheet" href="style.css">
+
+<style>
+html{
+    scroll-behavior:smooth;
+}
+</style>
+
 </head>
+
 <body class="bg-slate-950 text-slate-100">
+
 <div class="lg:flex min-h-screen">
-<aside class="lg:w-80 bg-slate-900 p-8 lg:sticky lg:top-0 lg:h-screen border-r border-slate-800">
-<img src="profile.png" class="w-40 h-40 rounded-full mx-auto border-4 border-cyan-500 object-cover">
-<h1 class="text-3xl font-bold mt-6 text-center">Shoaib Shaikh</h1>
-<p class="text-cyan-400 text-center">Backend Developer</p>
-<p class="text-center mt-3 text-sm">PHP Laravel | REST APIs | MySQL | PostgreSQL | Redis</p>
-<div class="mt-6 text-sm space-y-2">
-<p>📍 Pune, Maharashtra</p>
-<p>📧 shaikhshoaib654@gmail.com</p>
-<p>📞 +91 8793736284</p>
-<p>🔗 LinkedIn</p>
-<p>💻 GitHub: shoaibs333</p>
-</div>
-</aside>
 
-<main class="flex-1 p-8 max-w-6xl">
-<section>
-<h2 class="title">Professional Summary</h2>
-<p>Backend Developer with 6+ years of experience in designing, developing, and maintaining scalable web applications and backend systems. Strong expertise in PHP, Laravel, Zend Framework, CodeIgniter, RESTful APIs, MySQL, PostgreSQL, and Redis. Experienced in Healthcare, eCommerce, Education, HR Management, Loyalty & Rewards, Booking, and Enterprise Web Applications.</p>
-</section>
+    <!-- Sidebar -->
+    <aside class="lg:w-80 bg-slate-900 p-8 lg:sticky lg:top-0 lg:h-screen border-r border-slate-800">
 
-<section class="mt-10">
-<h2 class="title">Technical Skills</h2>
-<div class="grid md:grid-cols-2 gap-4">
-<div class="card"><b>Backend</b><br>PHP, Laravel, Zend Framework, CodeIgniter, REST APIs, MVC, OOP</div>
-<div class="card"><b>Frontend</b><br>HTML5, CSS3, Bootstrap, JavaScript, AJAX, jQuery, AngularJS, React.js</div>
-<div class="card"><b>Database</b><br>MySQL, PostgreSQL, Redis</div>
-<div class="card"><b>Tools</b><br>Git, Bitbucket, SVN, Jira, AWS, Postman, CI/CD, GitHub Copilot, Cursor AI</div>
-</div>
-</section>
+        <img src="profile.png"
+             class="w-40 h-40 rounded-full mx-auto border-4 border-cyan-500 object-cover">
 
-<section class="mt-10">
-<h2 class="title">Experience</h2>
-<div class="timeline">
-<div class="card"><h3>Software Engineer | Social Beast</h3><p>Jun 2025 - Present</p><ul><li>Laravel applications</li><li>Turf Booking Platform</li><li>Payment Gateway Integration</li><li>Analytics Dashboards</li></ul></div>
-<div class="card"><h3>Software Engineer | ImmplyCloud India</h3><p>Mar 2022 - Jun 2025</p><ul><li>Loyalty & Rewards Platform</li><li>REST APIs</li><li>Redis Caching</li><li>Zend Framework</li></ul></div>
-<div class="card"><h3>Software Developer | Georeach Technologies</h3><p>Jan 2020 - Feb 2022</p><ul><li>Healthcare</li><li>eCommerce</li><li>Education</li><li>HR Portals</li></ul></div>
-</div>
-</section>
+        <h1 class="text-3xl font-bold mt-6 text-center">
+            Shoaib Shaikh
+        </h1>
 
-<section class="mt-10">
-<h2 class="title">Projects</h2>
-<div class="grid md:grid-cols-2 gap-4">
-<div class="card"><h3>Turf Booking Platform</h3><p>Laravel, MySQL, REST APIs, Payment Gateway, Notifications, Admin Dashboard.</p></div>
-<div class="card"><h3>TopScoreTest</h3><p>Assessment platform with candidate management, scheduling and reporting.</p></div>
-<div class="card"><h3>Loyalty & Rewards Platform</h3><p>Campaign management, rewards tracking, point redemption, Redis optimization.</p></div>
-<div class="card"><h3>Healthcare & HR Portal</h3><p>Patient management, recruitment workflows, reporting dashboards.</p></div>
-</div>
-</section>
+        <p class="text-cyan-400 text-center">
+            Backend Developer
+        </p>
 
-<section class="mt-10">
-<h2 class="title">Domain Expertise</h2>
-<div class="flex flex-wrap gap-3">
-<span class="badge">Healthcare</span><span class="badge">eCommerce</span><span class="badge">Education</span>
-<span class="badge">HR & Recruitment</span><span class="badge">Loyalty & Rewards</span>
-<span class="badge">Booking Systems</span><span class="badge">Enterprise Applications</span>
-</div>
-</section>
+        <p class="text-center mt-3 text-sm text-slate-300">
+            PHP Laravel | REST APIs | MySQL | PostgreSQL | Redis
+        </p>
 
-<section class="mt-10">
-<h2 class="title">Education</h2>
-<div class="card">MBA - Information Technology | Pune University | CGPA 8.1/10</div>
-<div class="card mt-3">Bachelor of Computer Applications | Pune University | 63%</div>
+        <div class="mt-8 text-sm space-y-3">
+
+            <p>📍 Pune, Maharashtra</p>
+
+            <p>
+                📧
+                <a href="mailto:shaikhshoaib654@gmail.com"
+                   class="hover:text-cyan-400">
+                    shaikhshoaib654@gmail.com
+                </a>
+            </p>
+
+            <p>📞 +91 8793736284</p>
+
+            <a href="https://linkedin.com/in/shoaib-shakeel-shaikh"
+               target="_blank"
+               class="block hover:text-cyan-400">
+                🔗 LinkedIn Profile
+            </a>
+
+            <a href="https://github.com/shoaibs333"
+               target="_blank"
+               class="block hover:text-cyan-400">
+                💻 GitHub Profile
+            </a>
+
+            
+
+        </div>
+
+    </aside>
+
+    <!-- Main Content -->
+    <main class="flex-1 p-8 max-w-6xl">
+
+        <!-- Summary -->
+       <section id="summary">
+
+    <h2 class="title">
+        Professional Summary
+    </h2>
+
+    <p class="leading-7 text-slate-300">
+        Backend Developer with 6+ years of experience in designing,
+        developing, and maintaining scalable web applications and backend
+        systems. Strong expertise in PHP, Laravel, Zend Framework,
+        CodeIgniter, RESTful APIs, MySQL, PostgreSQL, and Redis.
+        Experienced in Healthcare, eCommerce, Education, HR Management,
+        Loyalty & Rewards, Booking, and Enterprise Web Applications.
+        Skilled in API development, database optimization, performance
+        tuning, third-party integrations, and Agile software development.
+    </p>
+
+    <div class="mt-6 flex flex-wrap gap-4">
+
+        <a href="resume.pdf"
+           download
+           class="bg-cyan-500 hover:bg-cyan-600 text-white px-6 py-3 rounded-lg font-medium shadow-lg transition-all duration-300 hover:scale-105">
+
+            📄 Download Resume
+
+        </a>
+
+       
+
+    </div>
+
 </section>
-</main>
+        <!-- Skills -->
+        <section class="mt-10" id="skills">
+
+            <h2 class="title">
+                Technical Skills
+            </h2>
+
+            <div class="grid md:grid-cols-2 gap-4">
+
+                <div class="card">
+                    <b>Backend</b><br>
+                    PHP, Laravel, Zend Framework, CodeIgniter,
+                    REST APIs, MVC, OOP
+                </div>
+
+                <div class="card">
+                    <b>Frontend</b><br>
+                    HTML5, CSS3, Bootstrap, JavaScript,
+                    AJAX, jQuery, AngularJS, React.js
+                </div>
+
+                <div class="card">
+                    <b>Database</b><br>
+                    MySQL, PostgreSQL, Redis
+                </div>
+
+                <div class="card">
+                    <b>Tools</b><br>
+                    Git, Bitbucket, SVN, Jira, AWS,
+                    Postman, CI/CD, GitHub Copilot, Cursor AI
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Experience -->
+        <section class="mt-10" id="experience">
+
+            <h2 class="title">
+                Experience
+            </h2>
+
+            <div class="timeline">
+
+                <div class="card">
+                    <h3 class="font-bold text-lg">
+                        Software Engineer | Social Beast
+                    </h3>
+
+                    <p class="text-slate-400">
+                        Jun 2025 - Present
+                    </p>
+
+                    <ul class="list-disc pl-5 mt-2">
+                        <li>Laravel Applications</li>
+                        <li>Turf Booking Platform</li>
+                        <li>Payment Gateway Integration</li>
+                        <li>Analytics Dashboards</li>
+                    </ul>
+                </div>
+
+                <div class="card mt-4">
+                    <h3 class="font-bold text-lg">
+                        Software Engineer | ImmplyCloud India
+                    </h3>
+
+                    <p class="text-slate-400">
+                        Mar 2022 - Jun 2025
+                    </p>
+
+                    <ul class="list-disc pl-5 mt-2">
+                        <li>Loyalty & Rewards Platform</li>
+                        <li>REST APIs</li>
+                        <li>Redis Caching</li>
+                        <li>Zend Framework</li>
+                    </ul>
+                </div>
+
+                <div class="card mt-4">
+                    <h3 class="font-bold text-lg">
+                        Software Developer | Georeach Technologies
+                    </h3>
+
+                    <p class="text-slate-400">
+                        Jan 2020 - Feb 2022
+                    </p>
+
+                    <ul class="list-disc pl-5 mt-2">
+                        <li>Healthcare Applications</li>
+                        <li>eCommerce Websites</li>
+                        <li>Education Systems</li>
+                        <li>HR Portals</li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Projects -->
+        <section class="mt-10" id="projects">
+
+            <h2 class="title">
+                Projects
+            </h2>
+
+            <div class="grid md:grid-cols-2 gap-4">
+
+                <div class="card">
+                    <h3 class="font-bold">
+                        Turf Booking Platform
+                    </h3>
+
+                    <p>
+                        Laravel, MySQL, REST APIs, Payment Gateway,
+                        Notifications, Admin Dashboard.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3 class="font-bold">
+                        TopScoreTest
+                    </h3>
+
+                    <p>
+                        Assessment platform with candidate management,
+                        scheduling and reporting.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3 class="font-bold">
+                        Loyalty & Rewards Platform
+                    </h3>
+
+                    <p>
+                        Campaign management, rewards tracking,
+                        point redemption and Redis optimization.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3 class="font-bold">
+                        Healthcare & HR Portal
+                    </h3>
+
+                    <p>
+                        Patient management, recruitment workflows,
+                        reporting dashboards.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Domain -->
+        <section class="mt-10">
+
+            <h2 class="title">
+                Domain Expertise
+            </h2>
+
+            <div class="flex flex-wrap gap-3">
+
+                <span class="badge">Healthcare</span>
+                <span class="badge">eCommerce</span>
+                <span class="badge">Education</span>
+                <span class="badge">HR & Recruitment</span>
+                <span class="badge">Loyalty & Rewards</span>
+                <span class="badge">Booking Systems</span>
+                <span class="badge">Enterprise Applications</span>
+
+            </div>
+
+        </section>
+
+        <!-- Education -->
+        <section class="mt-10">
+
+            <h2 class="title">
+                Education
+            </h2>
+
+            <div class="card">
+                MBA - Information Technology |
+                Pune University |
+                CGPA 8.1/10
+            </div>
+
+            <div class="card mt-3">
+                Bachelor of Computer Applications |
+                Pune University |
+                63%
+            </div>
+
+        </section>
+
+    </main>
+
 </div>
-</body></html>
+
+<!-- Scroll Button -->
+<button id="scrollBtn"
+    class="fixed bottom-6 right-6 bg-cyan-500 hover:bg-cyan-600 text-white p-4 rounded-full shadow-lg z-50 transition">
+
+    <svg id="scrollIcon"
+         xmlns="http://www.w3.org/2000/svg"
+         width="24"
+         height="24"
+         fill="none"
+         viewBox="0 0 24 24"
+         stroke="currentColor">
+
+        <path stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M19 9l-7 7-7-7" />
+
+    </svg>
+
+</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
