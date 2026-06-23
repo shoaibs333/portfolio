@@ -1,0 +1,5 @@
+
+.title{font-size:1.8rem;font-weight:700;margin-bottom:16px}
+.card{background:#1e293b;padding:18px;border-radius:14px;border:1px solid #334155}
+.badge{background:#083344;color:#67e8f9;padding:8px 14px;border-radius:999px}
+.timeline{display:grid;gap:16px}
